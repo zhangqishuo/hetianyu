@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../base.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="shoppingcart.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <!-- 导航栏1 -->
+        <div class="nav1">
+            <ul>
+                <li>您好，欢迎您使用禾田裕农资资约购平台</li>
+                <li>
+                    <a href="../loginPage/loginPage.html">
+                        <i class="fa fa-home"></i>
+                        请登录
+                    </a>
+                </li>
+                <li>
+                    <a href="../myagriCulturalresources/myagriCulturalresources.html">
+                        <i class="fa fa-star-half-o"></i>
+                        我的农资
+                    </a>
+                </li>
+                <li>
+                    <a href="shoppingcart.html">
+                        <i class="fa fa-cart-plus"></i>
+                        购物车
+                    </a>
+                </li>
+                <li>
+                    <a href="../favorites/favorites.html">
+                        <i class="fa fa-folder-o"></i>
+                        收藏夹
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- logo宣传+搜索框 -->
+        <div class="logoSearch">
+            <div class="logo">
+                <img src="logo1.jpeg" alt="" width="265px" height="128px">
+                <img src="logo2.png" alt="">
+            </div>
+            <span class="search">
+                <input type="text" placeholder="请输入想搜索的种子、化肥、农资药" class="searchInput">
+                <!-- <input type="button" value="搜索"> -->
+                <button>搜索</button>
+            </span>
+        </div>
+
+        <!-- 分类导航栏2 -->
+        <div class="nav2">
+            <ul>
+                <li><a href="../goodsclassifyPage/goodsclassify.html">农资分类</a></li>
+                <li><a href="../activityPage/activityPage.html">活动专区</a></li>
+                <li><a href="../activityPage/location.html">因地制宜</a></li>
+                <li><a href="../agriculturalSciencePopularization/agriculturalSciencePopularization.html">农资业科普</a></li>
+                <li><a href="../after-salesService/after-salesService.html">售后服务</a></li>
+            </ul>
+        </div>
+
+        <!--左分类栏 + 广告轮播 + 快速入口-->
+        <div class="serverce">
+            <div class="nav3">
+                <ul>
+                    <li><a href="#"><i class="fa fa-caret-right"></i>种子</a></li>
+                    <li><a href="#"><i class="fa fa-caret-right"></i>化肥</a></li>
+                    <li><a href="#"><i class="fa fa-caret-right"></i>农药</a></li>
+                    <li><a href="#"><i class="fa fa-caret-right"></i>农具</a></li>
+                </ul>
+            </div>
+            <div class="rollwhell">
+                <img src="#" alt="">
+            </div>
+            <div class="quickEnter">
+                <a href="#"><img src="pic1.jpg" alt="" width="215px" height="160px"></a>
+                <a href="#"><img src="pic2.jpg" alt="" width="215px" height="160px"></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 主要内容 -->
+    <div class="content1" id="content1">
+        <!-- 当前页面位置 -->
+        <div class="pageLocation">
+            <span><i class="fa fa-map-marker fa-lg"></i></span>&nbsp;&nbsp;
+            <span>您现在的位置&nbsp;>&nbsp;购物车</span>
+        </div>
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="tdone">序号</th>
+                        <th class="tdtwo">商品名称</th>
+                        <th class="tdthree">数量</th>
+                        <th class="tdfour">单价</th>
+                        <th class="tdfive">小计</th>
+                        <th class="tdsix">操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="trclass">
+                        <td class="tdone xuhao">1</td>
+                        <td class="tdtwo "><img src="pic3.jpg" alt=""><span>西红柿种子</span></td>
+                        <td class="tdthree"><span class="jiajie"><input type="button" value="-"><span
+                                    class="num">0</span><input type="button" value="+"></span></td>
+                        <td class="tdfour"><span>单价：</span><span class="unit">150.00</span></td>
+                        <td class="tdfive"><span>小计：</span><span class="subtal">0</span></td>
+                        <td class="tdsix"><button class="del">删除</button></td>
+                    </tr>
+                    <tr class="trclass">
+                        <td class="tdone xuhao">2</td>
+                        <td class="tdtwo"><img src="pic3.jpg" alt=""><span>西红柿种子</span></td>
+                        <td class="tdthree"><span class="jiajie"><input type="button" value="-"><span
+                                    class="num">0</span><input type="button" value="+"></span></td>
+                        <td class="tdfour"><span>单价：</span><span class="unit">150.00</span></td>
+                        <td class="tdfive"><span>小计：</span><span class="subtal">0</span></td>
+                        <td class="tdsix"><button class="del">删除</button></td>
+                    </tr>
+                    <tr class="trclass">
+                        <td class="tdone xuhao">3</td>
+                        <td class="tdtwo"><img src="pic3.jpg" alt=""><span>西红柿种子</span></td>
+                        <td class="tdthree"><span class="jiajie"><input type="button" value="-"><span
+                                    class="num">0</span><input type="button" value="+"></span></td>
+                        <td class="tdfour"><span>单价：</span><span class="unit">150.00</span></td>
+                        <td class="tdfive"><span>小计：</span><span class="subtal">0</span></td>
+                        <td class="tdsix"><button class="del">删除</button></td>
+                    </tr>
+                    <tr>
+                        <td class="tdone xuhao">4</td>
+                        <td class="tdtwo"><img src="pic3.jpg" alt=""><span>西红柿种子</span></td>
+                        <td class="tdthree"><span class="jiajie"><input type="button" value="-"><span
+                                    class="num">0</span><input type="button" value="+"></span></td>
+                        <td class="tdfour"><span>单价：</span><span class="unit">150.00</span></td>
+                        <td class="tdfive"><span>小计：</span><span class="subtal">0</span></td>
+                        <td class="tdsix"><button class="del">删除</button></td>
+                    </tr>
+                    <tr class="trclass">
+                        <td class="tdone xuhao">5</td>
+                        <td class="tdtwo"><img src="pic3.jpg" alt=""><span>西红柿种子</span></td>
+                        <td class="tdthree"><span class="jiajie"><input type="button" value="-"><span
+                                    class="num">0</span><input type="button" value="+"></span></td>
+                        <td class="tdfour"><span>单价：</span><span class="unit">150.00</span></td>
+                        <td class="tdfive"><span>小计：</span><span class="subtal">0</span></td>
+                        <td class="tdsix"><button class="del">删除</button></td>
+                    </tr>
+                    <tr class="trclass">
+                        <td class="tdone xuhao">6</td>
+                        <td class="tdtwo"><img src="pic3.jpg" alt=""><span>西红柿种子</span></td>
+                        <td class="tdthree"><span class="jiajie"><input type="button" value="-"><span
+                                    class="num">0</span><input type="button" value="+"></span></td>
+                        <td class="tdfour"><span>单价：</span><span class="unit">150.00</span></td>
+                        <td class="tdfive"><span>小计：</span><span class="subtal">0</span></td>
+                        <td class="tdsix"><button class="del">删除</button></td>
+                    </tr>
+                    <tr class="trclass">
+                        <td class="tdone xuhao">7</td>
+                        <td class="tdtwo"><img src="pic3.jpg" alt=""><span>西红柿种子</span></td>
+                        <td class="tdthree"><span class="jiajie"><input type="button" value="-"><span
+                                    class="num">0</span><input type="button" value="+"></span></td>
+                        <td class="tdfour"><span>单价：</span><span class="unit">150.00</span></td>
+                        <td class="tdfive"><span>小计：</span><span class="subtal">0</span></td>
+                        <td class="tdsix"><button class="del">删除</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" ; class="talast"><span>商品一共 <span class="goods_num">0</span> 件; 共计花费 <span
+                                    class="pricetal">0</span> 元; 其中最贵的商品单价是 <span class="pricest">0</span> 元</span></td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <div class="jiesuan">
+                <button onclick="TurnToconfirm()">结算</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- 确认收货信息-->
+    <div class="content2" id="content2">
+        <!-- 当前页面位置 -->
+        <div class="pageLocation">
+            <span><i class="fa fa-map-marker fa-lg"></i></span>&nbsp;&nbsp;
+            <span>您现在的位置&nbsp;>&nbsp;购物车&nbsp;>&nbsp;结算</span>
+        </div>
+        <div class="confirm">
+            <div class="confirmLaction">
+                <p>收货地址</p>
+                <div>
+                    <i class="fa fa-map-marker fa-3x"></i>
+                    <input type="text" value="江苏省南京市栖霞区南京邮电大学">
+                </div>
+            </div>
+            <div class="confirmInf">
+                <p>确认收货信息</p>
+                <div>
+                    <i class="fa fa-user fa-3x"></i>
+                    <span>李明</span>
+                </div>
+                <div>
+                    <i class="fa fa-phone fa-3x"></i>
+                    <input type="text" value="12345678">
+                </div>
+            </div>
+            <div class="confirmOrder">
+                <p>确认订单信息</p>
+            </div>
+        </div>
+        <div class="confirmOrderInf">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="tdone">序号</th>
+                        <th class="tdtwo">商品名称</th>
+                        <th class="tdthree">数量</th>
+                        <th class="tdfour">单价</th>
+                        <th class="tdfive">小计</th>
+                        <th class="tdsix">运费</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="trclass">
+                        <td class="tdone xuhao">1</td>
+                        <td class="tdtwo "><img src="pic3.jpg" alt=""><span>西红柿种子</span></td>
+                        <td class="tdthree">1</td>
+                        <td class="tdfour"><span>单价：</span><span class="unit">150.00</span></td>
+                        <td class="tdfive"><span>小计：</span><span class="subtal">150.00</span></td>
+                        <td class="tdsix">包邮</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6">
+                            <div class="words">
+                                <div>买家留言</div>
+                                <textarea name="words" id="" cols="50" rows="3"></textarea>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="confrimInfbutton">
+                <div class="confrimInfbutton_infborder">
+                    <div class="confrimInfbutton_inf">
+                        <div class="sum">小计：<span>￥300.00</span></div>
+                        <div class="word1">寄送至：</div>
+                        <div class="lacation">江苏省南京市栖霞区南京邮电大学</div>
+                        <div class="name">李明</div>
+                        <div class="phonenumber">123456789</div>
+                    </div>
+                </div>
+                <div class="confirmButton">
+                    <button onclick="TurnTopay1()">提交订单</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <!-- 付款1 -->
+    <div class="pay1" id="content3">
+        <!-- 当前页面位置 -->
+        <div class="pageLocation">
+            <span><i class="fa fa-map-marker fa-lg"></i></span>&nbsp;&nbsp;
+            <span>您现在的位置&nbsp;>&nbsp;购物车&nbsp;>&nbsp;结算&nbsp;>&nbsp;付款</span>
+        </div>
+        <div class="pay1Inf">
+            <div class="pay1Infcfm">
+                <div class="pay1_sum">小计：<span>￥300.00</span></div>
+                <div class="pay1_word1">寄送至：
+                    <span class="pay1_Inf">
+                        <div class="pay1_lacation">江苏省南京市栖霞区南京邮电大学</div>
+                        <div class="pay1_name">李明</div>
+                        <div class="pay1_phonenumber">123456789</div>
+                    </span>
+                </div>
+                <div class="orderNumber">
+                    <div class="orderWord">
+                        订单号:
+                    </div>
+                    <div class="orderNub">
+                        123456789987654321
+                    </div>
+                </div>
+                <div class="commitTime">
+                    <div class="commitTime_word">
+                        提交订单时间:
+                    </div>
+                    <div class="commitTime_time">
+                        2020/04/20&nbsp;&nbsp;18:55:26
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pay1InfWords">
+            <div class="pay1InfWords1">
+                <div class="pay1InfWords1_word1">
+                    支付声明：
+                </div>
+                <div class="pay1InfWords1_word2">
+                    网页购买将一次性支付全部贷款，但如果用户出现违约行为
+                <br>如：货到后无故退货，则将货款扣除定金后返回用户账户
+                </div>
+            </div>
+            <div class="pay1InfWords2">
+                <div class="pay1InfWords2_word1">
+                    定金收取原则：
+                </div>
+                <div class="pay1InfWords2_word2">
+                    所购商品价格在200元以内的，收取定金20元
+                <br>所购商品在200——800元之间的，收取定金50元
+                <br>购买商品在800元以上的，收取商品总价的10%
+                </div>
+            </div>
+        </div>
+        <div class="pay1InfWordsButton1">
+            <input type="checkbox" name="" id="">
+            <span>我已阅读收取定金规则</span>
+        </div>
+        <div class="pay1InfWordsButton2">
+            <button onclick="TurnTopay2()">立即支付</button>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- 付款2 -->
+    <div class="pay2" id="content4">
+        <div class="pay2_word1">请用手机扫一扫完成支付</div>
+        <div class="pay2_word2">￥300.00</div>
+        <div class="pay2_word3">
+            <div class="weixin">
+                <div class="ma"><img src="" alt="" width="150px" height="150px" ></div>
+                <div class="pay2_word3_word">
+                    <img src="pic4.png" alt="" width="40px" height="40px">
+                    微信支付
+                </div>
+            </div>
+            <div class="zhifubao">
+                <div class="ma"><img src="" alt="" width="150px" height="150px" ></div>
+                <div class="pay2_word3_word">
+                    <img src="pic5.png" alt="" width="40px" height="40px">
+                    微信支付
+                </div>
+            </div>
+            
+        </div>
+        <div class="pay2_word4"><a href="#">支付遇到问题</a></div>
+    </div>
+    <!-- 页面底部 -->
+    <div class="footer">
+        <div class="foot_nav1">
+            <ul>
+                <li><i class="fa fa-handshake-o fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;正品质量保证</li>
+                <li><i class="fa fa-truck fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;按时配送货物</li>
+                <li><i class="fa fa-shield fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;安全支付保障</li>
+                <li><i class="fa fa-headphones fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;售后服务守护</li>
+            </ul>
+        </div>
+        <div class="foot_nav2">
+            <div class="logo1">
+                <img src="logo1.jpeg" alt="" width="200px" height="180px">
+            </div>
+            <div class="a_navs">
+                <ul>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">招商合作</a></li>
+                    <li><a href="#">意见反馈</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">信息查询</a></li>
+                    <li><a href="#">农资查询</a></li>
+                    <li><a href="#">病害咨询</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">售后服务</a></li>
+                    <li><a href="#">订单中心</a></li>
+                    <li><a href="#">订单查询</a></li>
+                    <li><a href="#">退换货政策</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">新手帮助</a></li>
+                    <li><a href="#">新用户注册</a></li>
+                    <li><a href="#">常见问题</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="foot_pic">
+            <img src="pic8.jpg" alt="" width="1024px" height="132px">
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- js -->
+    <script>
+
+        window.onload = function () {
+            function cart() {
+                this.abtn = document.querySelectorAll('input');
+                this.ogood_num = document.querySelector('.goods_num');
+                this.opricetal = document.querySelector('.pricetal');
+                this.opricest = document.querySelector('.pricest');
+                this.totalnum = 0;
+            };
+            //小计:  商品数量 * 商品单价
+            cart.prototype.getsubtotal = function (goodsnum, unitprice) {
+                return parseInt(goodsnum) * parseFloat(unitprice);
+            };
+            // 计算商品的总计花费
+            cart.prototype.gettotal = function () {
+                var asubtotal = document.querySelectorAll('.subtal');
+                var res = 0;
+                for (var i = 0, len = asubtotal.length; i < len; i++) {
+                    res += parseFloat(asubtotal[i].innerHTML);
+                };
+                return res;
+            };
+            // 寻找购物车中已经选中的产品的最大单价
+            cart.prototype.compareMaxunit = function () {
+                var anum = document.querySelectorAll('.num');
+                var aunit = document.querySelectorAll('.unit');
+                var temp = 0;
+                for (var i = 0, len = anum.length; i < len; i++) {
+                    if (anum[i].innerHTML != 0) {
+                        if (temp < parseFloat(aunit[i].innerHTML)) {
+                            temp = parseFloat(aunit[i].innerHTML);
+                        }
+                    }
+                };
+                return temp;
+            };
+            // 点击“+”号按钮触发的购物车商品数量，花费，最大价格的变动
+            cart.prototype.minus = function (obtn) {
+                var onum = obtn.parentNode.querySelector('.num');
+                var n = parseInt(onum.innerHTML);
+                onum.innerHTML = ++n;
+                this.totalnum++;
+                var oUnit = obtn.parentNode.parentNode.parentNode.querySelector('.unit');
+                var osubtotal = obtn.parentNode.parentNode.parentNode.querySelector('.subtal');
+                osubtotal.innerHTML = this.getsubtotal(onum.innerHTML, oUnit.innerHTML);
+                this.ogood_num.innerHTML = this.totalnum;
+                this.opricetal.innerHTML = this.gettotal();
+                this.opricest.innerHTML = this.compareMaxunit();
+            };
+            // 点击“-”号按钮触发的购物车商品数量，花费，最大价格的变动
+            cart.prototype.plus = function (obtn) {
+                var onum = obtn.parentNode.querySelector('.num');
+                if (parseInt(onum.innerHTML) > 0) {
+                    var n = parseInt(onum.innerHTML);
+                    onum.innerHTML = --n;
+                    this.totalnum--;
+                    var oUnit = obtn.parentNode.parentNode.parentNode.querySelector('.unit');
+                    var osubtotal = obtn.parentNode.parentNode.parentNode.querySelector('.subtal');
+                    osubtotal.innerHTML = this.getsubtotal(onum.innerHTML, oUnit.innerHTML);
+                    this.ogood_num.innerHTML = this.totalnum;
+                    this.opricetal.innerHTML = this.gettotal();
+                    this.opricest.innerHTML = this.compareMaxunit();
+                }
+            };
+            // 获取已买商品的总计数量
+            cart.prototype.getNumbertal = function () {
+                var anum = document.querySelectorAll('.num');
+                var res_num = 0;
+                for (var i = 0; i < anum.length; i++) {
+                    res_num += parseInt(anum[i].innerHTML);
+                }
+                return res_num;
+            }
+            // 删除按钮触发的购物车商品数量，花费，最大价格的变动
+            cart.prototype.del = function (obtn) {
+                var odel = obtn.parentNode.parentNode;
+                var oparent = odel.parentNode;
+                oparent.removeChild(odel);
+                this.ogood_num.innerHTML = this.getNumbertal();
+                this.opricetal.innerHTML = this.gettotal();
+                this.opricest.innerHTML = this.compareMaxunit();
+                this.xuhaosort();
+            }
+            // 购物车序号重新排序
+            cart.prototype.xuhaosort = function () {
+                var axuhao = document.querySelectorAll('.xuhao');
+                for (var i = 0, len = axuhao.length; i < len; i++) {
+                    axuhao[i].innerHTML = i + 1;
+                }
+            }
+            // 绑定“+”，“-”，删除按钮的点击事件
+            cart.prototype.bind = function () {
+                var that = this;
+                for (var i = 0; i < this.abtn.length; i++) {
+                    if (i % 2 != 0) {
+                        this.abtn[i].onclick = function () {
+                            that.plus(this);
+                        }
+                    } else {
+                        this.abtn[i].onclick = function () {
+                            that.minus(this);
+                        }
+                    }
+                };
+                var delbtn = document.querySelectorAll('.del');
+                for (var i = 0; i < delbtn.length; i++) {
+                    delbtn[i].onclick = function () {
+                        that.del(this);
+                    }
+                }
+            };
+            var oCart = new cart();
+            oCart.bind();
+        }
+
+        // 结算页面的跳转
+        function TurnToconfirm() {
+            document.getElementById('content2').style.display = "block";
+            document.getElementById('content1').style.display = "none";
+        }
+        function TurnTopay1(){
+            document.getElementById('content3').style.display = "block";
+            document.getElementById('content2').style.display = "none";
+        }
+        function TurnTopay2(){
+            document.getElementById('content4').style.display = "block";
+            document.getElementById('content3').style.display = "none";
+        }
+    </script>
+</body>
+
+</html>

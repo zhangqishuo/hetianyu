@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>售后服务</title>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../base.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="after-salesService.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <!-- 导航栏1 -->
+        <div class="nav1">
+            <ul>
+                <li>您好，欢迎您使用禾田裕农资资约购平台</li>
+                <li>
+                    <a href="../loginPage/loginPage.html">
+                        <i class="fa fa-home"></i>
+                        请登录
+                    </a>
+                </li>
+                <li>
+                    <a href="../myagriCulturalresources/myagriCulturalresources.html">
+                        <i class="fa fa-star-half-o"></i>
+                        我的农资
+                    </a>
+                </li>
+                <li>
+                    <a href="../shoppingcart/shoppingcart.html">
+                        <i class="fa fa-cart-plus"></i>
+                        购物车
+                    </a>
+                </li>
+                <li>
+                    <a href="../favorites/favorites.html">
+                        <i class="fa fa-folder-o"></i>
+                        收藏夹
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- logo宣传+搜索框 -->
+        <div class="logoSearch">
+            <div class="logo">
+                <img src="logo1.jpeg" alt="" width="265px" height="128px">
+                <img src="logo2.png" alt="">
+            </div>
+            <span class="search">
+                <input type="text" placeholder="请输入想搜索的种子、化肥、农资药" class="searchInput">
+                <!-- <input type="button" value="搜索"> -->
+                <button>搜索</button>
+            </span>
+        </div>
+
+        <!-- 分类导航栏2 -->
+        <div class="nav2">
+            <ul>
+                <li><a href="../goodsclassifyPage/goodsclassify.html">农资分类</a></li>
+                <li><a href="../activityPage/activityPage.html">活动专区</a></li>
+                <li><a href="../activityPage/location.html">因地制宜</a></li>
+                <li><a href="../activityPage/location.html">农业科普</a></li>
+                <li><a href="after-salesService.html">售后服务</a></li>
+            </ul>
+        </div>
+
+        <!--左分类栏 + 广告轮播 + 快速入口-->
+        <div class="serverce">
+            <div class="nav3">
+                <ul>
+                    <li><a href="#"><i class="fa fa-caret-right"></i>种子</a></li>
+                    <li><a href="#"><i class="fa fa-caret-right"></i>化肥</a></li>
+                    <li><a href="#"><i class="fa fa-caret-right"></i>农药</a></li>
+                    <li><a href="#"><i class="fa fa-caret-right"></i>农具</a></li>
+                </ul>
+            </div>
+            <div class="rollwhell">
+                <img src="#" alt="">
+            </div>
+            <div class="quickEnter">
+                <a href="#"><img src="pic1.jpg" alt="" width="215px" height="160px"></a>
+                <a href="#"><img src="pic2.jpg" alt="" width="215px" height="160px"></a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 主要内容 -->
+    <div class="mainContent">
+        <!-- 推荐标签 -->
+        <div class="goodsNav">
+            <a href="after-salesService.html" class="goodsWord1">售后服务</a>
+        </div>
+
+
+        <!-- 售后四个板块 -->
+        <div class="aftersales" id="aftersales">
+            <!-- 物流信息查询 -->
+            <div class="sector" onclick="TurnTowuliu()">
+                <a href="#">
+                    <img src="logistics.png" alt=""><span>物流信息查询</span>
+                </a>
+            </div>
+            <!-- 退换货政策 -->
+            <div class="sector" onclick="TurnTotuihuan()">
+                <a href="#">
+                    <img src="exchange.png" alt=""><span>退换货政策</span>
+                </a>
+            </div>
+            <!-- 服务承诺 -->
+            <div class="sector" onclick="TurnTofuwu()">
+                <a href="#">
+                    <img src="service.png" alt=""><span>服务承诺</span>
+                </a>
+            </div>
+            <!-- 联系客服 -->
+            <div class="sector" onclick="TurnTolianxi()">
+                <a href="#">
+                    <img src="userservice.png" alt=""><span>联系客服</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- 模块一 -物流信息查询  -->
+        <div class="infSearch" id="infSearch">
+             <!-- 物流信息查询 -->
+             <div class="sector">
+                <a href="#">
+                    <img src="logistics.png" alt=""><span>物流信息查询</span>
+                </a>
+            </div>
+            <!-- 物流流程 -->
+            <ul class="process">
+                <li><span>买家下单</span></li>
+                <li><span>订单开始处理</span></li>
+                <li><span>已由仓库打包发货</span></li>
+                <li><span>商品已抵达江苏省</span></li>
+            </ul>
+            <div class="process_text">
+                请您耐心等待，我们将尽快将货物送到您的手中
+            </div>
+            
+        </div>
+
+        <!-- 模块二 - 退换货政策 -->
+        <div class="exchangetext" id="exchangetext">
+
+            <!-- 退换货政策 -->
+            <div class="sector">
+                <a href="#">
+                    <img src="exchange.png" alt=""><span>退换货政策</span>
+                </a>
+            </div>
+            <div class="exchangetext_content">
+                <div class="text_paragraph">
+                    1.如果您对已经购买到的商品有任何质量问题，请及时联系我们或附近代购店联系退换货事宜。对于已经拆封的商品（如化肥，种子，农药等商品）非质量问题将不予退换。
+                </div>
+                <div class="text_paragraph">
+                    2.您和网站客服双方都确认退货后，我们将会把您的货款原路退回到您的账户中。当中如果牵涉到配送费问题，买家需要承担来回运费。
+                </div>
+            </div>
+
+        </div>
+
+        <!-- 模块三 - 服务承诺 -->
+        <div class="serviceAgree" id="serviceAgree">
+
+             <!-- 服务承诺 -->
+             <div class="sector">
+                <a href="#">
+                    <img src="service.png" alt=""><span>服务承诺</span>
+                </a>
+            </div>
+            <div class="service_content">
+                <div class="text_paragraph">
+                    <span>1.正牌商品</span>
+                    我们承诺所售农资商品全部为正规公司商品，均已核实公司相关证件，请放心购买。
+                </div>
+                <div class="text_paragraph">
+                    <span>2.退款承诺</span>
+                    经协商后您有权要求本平台退还客户帐余款，我们将通过您的打款渠道原路退还到您的账户。
+                </div>
+            </div>>
+        </div>
+
+        <!-- 模块四 - 联系客服 -->
+        <div class="contactCustomerservice" id="contactCustomerservice">
+
+            <!-- 联系客服 -->
+            <div class="sector">
+                <a href="#">
+                    <img src="userservice.png" alt=""><span>联系客服</span>
+                </a>
+            </div>
+            <div class="contactContent">
+                <div class="contact1">
+                    <img src="customerservice.png" alt="">
+                    <span>您好，有什么可以帮助您的吗</span></span>
+                </div>
+                <div class="contact2">
+                    <span>您好，我购买的商品有一包出现了开封情况</span>
+                    <img src="user.png" alt="">
+                </div>
+                <div class="contact1">
+                    <img src="customerservice.png" alt="">
+                    <span>请您稍等，这边帮您查询一下订单信息</span>
+                </div>
+            </div>
+            <div class="sendInf">
+                <input type="text" placeholder="请输入您的问题" >
+                <button>发送</button>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <!-- 页面底部 -->
+    <div class="footer">
+        <div class="foot_nav1">
+            <ul>
+                <li><i class="fa fa-handshake-o fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;正品质量保证</li>
+                <li><i class="fa fa-truck fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;按时配送货物</li>
+                <li><i class="fa fa-shield fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;安全支付保障</li>
+                <li><i class="fa fa-headphones fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;售后服务守护</li>
+            </ul>
+        </div>
+        <div class="foot_nav2">
+            <div class="logo1">
+                <img src="logo1.jpeg" alt="" width="200px" height="180px">
+            </div>
+            <div class="a_navs">
+                <ul>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">招商合作</a></li>
+                    <li><a href="#">意见反馈</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">信息查询</a></li>
+                    <li><a href="#">农资查询</a></li>
+                    <li><a href="#">病害咨询</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">售后服务</a></li>
+                    <li><a href="#">订单中心</a></li>
+                    <li><a href="#">订单查询</a></li>
+                    <li><a href="#">退换货政策</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">新手帮助</a></li>
+                    <li><a href="#">新用户注册</a></li>
+                    <li><a href="#">常见问题</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="foot_pic">
+            <img src="pic8.jpg" alt="" width="1024px" height="132px">
+        </div>
+    </div>
+
+    <script>
+
+        function TurnTowuliu(){
+            document.getElementById('aftersales').style.display = "none";
+            document.getElementById('infSearch').style.display = "block";
+            document.getElementById('exchangetext').style.display = "none";
+            document.getElementById('serviceAgree').style.display = "none";
+            document.getElementById('contactCustomerservice').style.display = "none";
+        }
+
+        function TurnTotuihuan(){
+            document.getElementById('aftersales').style.display = "none";
+            document.getElementById('infSearch').style.display = "none";
+            document.getElementById('exchangetext').style.display = "block";
+            document.getElementById('serviceAgree').style.display = "none";
+            document.getElementById('contactCustomerservice').style.display = "none";
+        }
+
+        function TurnTofuwu(){
+            document.getElementById('aftersales').style.display = "none";
+            document.getElementById('infSearch').style.display = "none";
+            document.getElementById('exchangetext').style.display = "none";
+            document.getElementById('serviceAgree').style.display = "block";
+            document.getElementById('contactCustomerservice').style.display = "none";
+        }
+
+        function TurnTolianxi(){
+            document.getElementById('aftersales').style.display = "none";
+            document.getElementById('infSearch').style.display = "none";
+            document.getElementById('exchangetext').style.display = "none";
+            document.getElementById('serviceAgree').style.display = "none";
+            document.getElementById('contactCustomerservice').style.display = "block";
+        }
+
+    </script>
+</body>
+
+</html>

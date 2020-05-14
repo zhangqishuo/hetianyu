@@ -1,0 +1,248 @@
+.header{
+    display:flex;
+}
+
+.logo1{
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-bottom: 12px;
+    margin-right: 212px;
+    width: 42.238%;
+}
+
+.logo2{
+    width: 33.49%;
+    margin-top: 48px;
+    margin-bottom: 27px;
+    margin-right: 82px;
+}
+
+.login_background img{
+    width: 100%;
+    position: absolute;
+}
+
+
+/* 登录表单css */
+
+.login_form{
+    position: relative;
+    border: 4px solid #555558;
+    background-color: #ffffff;
+    width: 31.915%;
+    top: 158px;
+    margin-left: 50.433%;
+    display: block;
+    /* display: none; */
+}
+
+.welcome{
+    background-color: #f2f2f2;
+    padding: 8px ;
+    line-height: 14px;
+    text-indent: 1em;
+    font-size: 14px;
+}
+
+.button1{
+    text-align: center;
+    margin-top: 47px;
+    margin-bottom: 30px;
+}
+
+.button1 input{
+    padding: 8px 50px;
+    line-height: 14px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border: 1px solid #797979;
+}
+
+.button1 input:hover{
+    background-color: #ffffff;
+    border: 1px solid #819f52;
+    cursor:pointer;
+}
+
+.information1{
+    /* margin-top: 15px; */
+    margin-left: 20%;
+    margin-bottom: 33px;
+}
+
+.information1 div{
+    margin: 18px auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.information1 input{
+    width: 52.346%;
+    border: 1px solid #797979;
+    line-height: 29px;
+    font-size: 14px;
+    text-indent: 1em;
+    margin:0 10px;
+}
+
+.button2{
+    margin:0 20%;
+    /* color: #333334; */
+}
+
+.selectLogin{
+    margin-right:24.20% ;
+    color: #333334;
+    font-size: 14px;
+}
+
+.forgetSecert{
+    /* margin-right: 20%; */
+    font-size: 14px;
+}
+
+.forgetSecert span{
+    color: #333334;
+}
+.forgetSecert span:hover{
+    cursor:pointer;
+}
+
+.button_login input{
+    background-color: #70b702;
+    width: 100%;
+    line-height: 37px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
+    margin: 23px 2%;
+}
+
+.button_login input:hover{
+    cursor:pointer ;
+}
+.verifyPhonenumber a{
+    color: #70b702;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.verifyPhonenumber{
+    margin-bottom: 41px;
+}
+
+
+/* 注册表单css */
+
+.register_form{
+    position: relative;
+    border: 4px solid #555558;
+    background-color: #ffffff;
+    width: 31.915%;
+    top: 123px;
+    margin-left: 50.433%;
+    display: none;
+}
+.button_1{
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 21px;
+}
+.button_1 input{
+    padding: 8px 50px;
+    /* margin-right: 5px; */
+    line-height: 14px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border: 1px solid #797979;
+}
+.button_1 input:hover{
+    background-color: #ffffff;
+    border: 1px solid #819f52;
+}
+.information2{
+    margin-bottom:36px;
+    margin-left: 18.025%;
+    margin-right: 18.025%;
+    width: 63.704%;
+    text-align: center;
+}
+.inputs input{
+    width: 258px;
+    font-size: 14px;
+    line-height: 27px;
+    margin-bottom: 15px;
+    text-indent: 1em;
+    border: 1px solid #797979;
+}
+.ele_1{
+    width: 54.264%;
+    font-size: 14px;
+    line-height: 27px;
+    margin-right: 4.651%;
+    margin-bottom: 15px;
+    text-indent: 1em;
+    border: 1px solid #797979;
+}
+.ele_2{
+    font-size: 14px;
+    line-height: 27px;
+    margin-bottom: 15px;
+}
+.word{
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+.selecter select{
+    line-height: 20px;
+    font-size: 13px;
+    width: 27.91%;
+    /* border-radius: 0px; */
+    margin-right: 4%;
+    margin-bottom: 27px;
+}
+.button_login2 input{
+    background-color: #70b702;
+    width: 100%;
+    line-height: 37px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
+    /* margin: 23px 2%; */
+    margin-bottom: 24px;
+}
+.button_login2 input:hover{
+    cursor: pointer;
+}
+
+.servceAgreement a{
+    color:#70b702;
+}
+
+
+
+/* 忘记密码表单 */
+.forgetSecert_form{
+    position: relative;
+    border: 4px solid #555558;
+    background-color: #ffffff;
+    width: 31.915%;
+    top: 123px;
+    margin-left: 50.433%;
+    display: none;
+}
+.back{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 16px;
+    text-indent: 1em;
+}
+.back :hover{
+    cursor: pointer;
+}
+.findSercet{
+    font-size: 18px;
+    font-weight: 500;
+}

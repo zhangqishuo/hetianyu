@@ -1,0 +1,588 @@
+body{
+    width: 74.9633%;
+    margin: 0 auto;
+}
+/* 头部 */
+.nav1{
+    background-color: #f4f4f4;
+    font-size: 14px;
+}
+.nav1 ul{
+    display: flex;
+    justify-content: flex-end;
+  	align-items: flex-end;
+}
+.nav1 ul li{
+    margin-top: 15px;
+    line-height: 22px;
+    margin-bottom: 16px;
+    /* padding-right: 1.953%; */
+    margin-right: 1.5%;
+}
+
+.nav1 ul li:first-child{
+    margin-right: auto;
+    margin-left: 3.027%;
+}
+.nav1 ul li a{
+    color: #979797;
+}
+.logoSearch{
+    display: inline-flex;
+    align-items: center;
+    /* justify-content: start; */
+    width: 100%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo img:first-child{
+    /* width: 25.87890625%; */
+    margin-right: 4.39453125%;
+}
+.search{
+    margin-left: 10%;
+    font-size: 18px;
+    flex: 1;
+}
+.search input{
+    line-height: 30px;
+    border-radius: 10px;
+    border: 2px solid #70b702;
+    width: 70%;
+    text-indent: 1em;
+} 
+
+.search button{
+    /* line-height: 30px; */
+    color: white;
+    font-size: 18px;
+    background-color: #70b702;
+    border: 2px solid #70b702;
+    border-radius: 10px;
+    width: 15%;
+}
+.nav2{
+    background-color:#f2f2f2;
+    border-bottom: 6px solid #d8d8d8;
+    margin-bottom: 4px;
+}
+.nav2 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* marigin-left:6.34765625%; */
+}
+.nav2 ul li{
+    font-size: 18px;
+    margin: 8px 4%;
+}
+.nav2 ul li a{
+    color:#4c7900;
+    text-decoration: none;
+}
+.serverce{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.nav3{
+    width: 20.01953125%;
+}
+.nav3 ul li{
+    width: auto;
+    /* background-color: blue; */
+}
+.nav3 ul li a{
+    font-size: 16px;
+    padding-left: 14.6341%;
+    /* background-color: red; */
+    padding-right: 65%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    line-height: 38px;
+    border-top: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+    border-right: 1px solid #d7d7d7;
+    color:black;
+    text-decoration: none;
+}
+.rollwhell{
+    width: 37.11%;
+    height: 160px;
+    background-color: #d7d7d7;
+}
+.quickEnter{
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+}
+/* 头部结束 */
+ 
+
+
+
+
+
+
+
+
+
+
+/* 主要内容开始 */
+.content1{
+    display:block;
+}
+.pageLocation{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    background-color: #f2f2f2;
+    padding-left: 4.101%;
+    margin-bottom: 15px;
+}
+
+table{
+    width:94.238%;
+    position:relative;
+    margin:30px auto;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    border:1px solid gray;
+      }
+th{
+    background: #f2f2f2;
+    height:2.5em;
+   }
+    .tdone{
+        width:10%;
+        }
+    .tdtwo{
+         width:20%;
+    }
+    .tdtwo span{
+        display: block;
+    }
+    .tdthree{      
+         width:20%;
+     }
+    .tdfour{        
+         width:20%;
+              }
+    .tdfive{
+        width:20%;
+    }
+    .tdsix{     
+         width:10%;
+     }
+  td{
+        height:2em;       
+          text-align: center;
+         border:1px solid #ccc;
+     }
+     .num{
+         display:inline-block;
+        width:3em;
+    }
+ input{
+        height:2em;
+    }
+    .talast{
+        text-align: right;
+        font-size: 15px;
+        padding-right: 20px;
+        padding: 20px;
+    }
+    .jiesuan button{
+        padding: 10px 30px;
+        margin-left: 85%;
+        margin-bottom: 30px;
+        background-color: #4b7a01;
+        color: white;
+        border-radius: 5px ;
+    }
+
+
+
+
+
+/* 购物车 > 结算 */
+.content2{
+    display: none;
+}
+.confirm{
+    width: 65.625%;
+    margin: 0 auto;
+}
+.confirmLaction p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 25px 0;
+}
+.confirmLaction div{
+    display: flex;
+    align-items: center;
+}
+.confirmLaction i{
+    padding-left: 3.7109375%;
+    padding-right: 3.571%;
+}
+.confirmLaction input{
+    line-height: 28px;
+    font-size: 14px;
+    width: 87.798%;
+}
+.confirmLaction{
+    margin-bottom: 24px;
+}
+
+.confirmInf p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 25px 0;
+}
+.confirmInf div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.confirmInf i{
+    padding-left: 3.7109375%;
+    padding-right: 3.571%;
+}
+.confirmInf input{
+    line-height: 28px;
+    font-size: 14px;
+    width: 87.798%;
+}
+.confirmInf span{
+    font-size: 16px;
+    font-weight: 200;
+}
+.confirmOrder p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 25px 0;
+}
+.words{
+    display: flex;
+    margin: 20px 5px;
+    margin-left:33.86% ;
+}
+.words div{
+    font-size: 15px;
+    margin-right: 3%;
+}
+.confrimInfbutton{
+    margin-left: 57.8125%;
+    width: 28.90625%;
+    margin-bottom: 70px;
+}
+.confrimInfbutton_infborder{
+    border: 2px solid #7ba638;
+}
+.confrimInfbutton_inf{
+    padding: 5%;
+}
+.sum{
+    font-size: 20px;
+    font-weight: 400;
+}
+.sum span{
+    padding: 2%;
+    font-size: 22px;
+    color: #bb7e26;
+    font-weight: 500;
+    
+}
+.word1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 2%;
+}
+.lacation{
+    margin-bottom: 2%;
+}
+.name{
+    margin-bottom: 2%;
+}
+/* .phonenumber{
+    margin-bottom: 2%;
+} */
+.confirmButton button{
+    background-color: #70b702;
+    width: 60%;
+    line-height: 50px;
+    border-radius: 5px;
+    margin-left:40%;
+}
+
+
+
+
+
+/* 购物车 > 结算 > 付款1 */
+.pay1{
+    display: none;
+}
+.pay1Inf{
+    width: 75%;
+    border: 2px solid #81a436;
+    margin:0 auto;
+    margin-bottom: 25px;
+}
+.pay1Infcfm{
+    padding-left: 20%;
+    padding-top: 46px;
+}
+
+.pay1_sum{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.pay1_sum span{
+    padding: 2%;
+    font-size: 22px;
+    color: #bb7e26;
+    font-weight: 500;
+    margin-left: 10%;
+    
+}
+.pay1_word1{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+.pay1_lacation{
+    margin-bottom: 3%;
+    font-size: 15px;
+}
+.pay1_name{
+    margin-bottom: 3%;
+    font-size: 15px;
+
+}
+.pay1_Inf{
+    margin-top: 1%;
+    margin-left: 10%;
+}
+.pay1_phonenumber{
+    margin-bottom: 1%;
+    font-size: 15px;
+}
+.orderNumber{
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.orderWord{
+    font-size: 20px;
+    font-weight: 500;
+}
+.orderNub{
+    font-size: 15px;
+    margin-left: 12%;
+}
+.commitTime{
+    display: flex;
+    align-items: center;
+    margin-bottom: 54px;
+}
+.commitTime_word{
+    font-size: 20px;
+    font-weight: 500;
+}
+.commitTime_time{
+    font-size: 15px;
+    margin-left: 2.5%;
+}
+.pay1InfWords{
+    margin-left: 22.65625%;
+}
+.pay1InfWords1{
+    display: flex;
+    margin-bottom: 15px;
+}
+.pay1InfWords1_word1{
+    font-size: 22px;
+    font-weight: 600;
+    color: #ab001c;
+}
+.pay1InfWords1_word2{
+    font-size: 17px;
+    line-height: 35px;
+}
+.pay1InfWords2{
+    display: flex;
+}
+.pay1InfWords2_word1{
+    font-size: 22px;
+    font-weight: 600;
+    color: #ab001c;
+}
+.pay1InfWords2_word2{
+    font-size: 17px;
+    line-height: 35px;
+}
+.pay1InfWordsButton1 input{
+    height:16px; 
+    vertical-align:text-bottom;
+}
+.pay1InfWordsButton1 span{
+    font-size: 16px;
+}
+.pay1InfWordsButton1{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.pay1InfWordsButton2 button{
+    width: 26.5625%;
+    line-height: 55px;
+    background-color: #70b800;
+    border-radius: 8px;
+    color:white;
+    font-size:15px;
+}
+.pay1InfWordsButton2{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+
+
+
+/* 购物车 > 结算 > 付款2 */
+.pay2{
+    display: none;
+    text-align: center;
+    margin-top: 45px;
+}
+.pay2_word1{
+    font-size: 20px;
+    font-weight: 1000;
+    margin-bottom: 40px;
+}
+.pay2_word2{
+    font-size: 23px;
+    font-weight: 1500;
+    color: #bb7e26;
+    margin-bottom: 40px;
+}
+.pay2_word3{
+    display: flex;
+    justify-content: center;
+}
+.pay2_word3_word{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+.ma{
+    background-color: grey;
+    width: 150px;
+    height: 150px;
+}
+.weixin{
+    padding-right: 120px;
+}
+.pay2_word4 a{
+    color: #818181;
+    font-size: 13px;
+}
+.pay2_word4{
+    margin-bottom: 60px;
+}
+/* 主要内容结束 */
+
+
+
+
+
+
+
+
+
+
+
+/* 页面底部开始 */
+.foot_nav1{
+    background-color: #f2f2f2;
+}
+.foot_nav1 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot_nav1 ul li {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: ; */
+    line-height: 60px;
+    margin: 0 3%;
+    color: #4e4e4e;
+}
+.foot_nav2{
+    display: flex;
+    align-items: center;
+    border-top:2px solid #d8d8d8 ;
+    border-bottom:2px solid #d8d8d8 ;
+    margin-bottom: 18px;
+}
+.logo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8.301%;
+    margin-right: 20%;
+}
+.a_navs{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.a_navs ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 15px;
+    width: auto;
+    padding: 10px;
+}
+
+.a_navs ul li a{
+    color: #7d7d7d;
+}.a_navs ul li:first-child{
+    margin-top: 32px;
+}
+.a_navs ul li:first-child a{
+    color: #575757;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.foot_pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 页面底部结束 */
+
+
+
+
+
+
+
+
+
